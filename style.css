@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(226, 130, 40);
+}
+.img-container {
+  background-color: rgb(236, 185, 119);
+  border: 2px solid black;
+  border-radius: 12px;
+  width: 60%;
+  height: 60vh;
+  background: url("/img/_ (1).jpg") center/cover fixed no-repeat ;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
