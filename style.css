@@ -23,7 +23,7 @@ body {
   top: 50%;
   left: 0;
   transform: translate(-50%, -50%);
-  background: url(/icons8-sort-left-50.png);
+  background: url("/icons8-sort-left-50.png");
   padding: 25px;
   cursor: pointer;
 }
