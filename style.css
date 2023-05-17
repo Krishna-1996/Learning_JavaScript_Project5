@@ -7,15 +7,15 @@ body {
   background-color: rgb(226, 130, 40);
 }
 .img-container {
-  background-color: rgb(236, 185, 119);
+  background-color: rgb(213, 231, 49);
   border: 2px solid black;
   border-radius: 12px;
   width: 60%;
-  height: 60vh;
+  min-height: 60vh;
   background: url("/img/_ (1).jpg") center/cover fixed no-repeat ;
-  padding: 10px 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  margin: 4rem auto;
+  box-shadow: 10px 10px 35px rgb(226, 230, 15);
+  
+  
 }
