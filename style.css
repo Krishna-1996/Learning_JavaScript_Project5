@@ -8,14 +8,31 @@ body {
 }
 .img-container {
   background-color: rgb(213, 231, 49);
-  border: 2px solid black;
+  border: 2px solid rgb(204, 25, 18);
   border-radius: 12px;
-  width: 60%;
-  min-height: 60vh;
-  background: url("/img/_ (1).jpg") center/cover fixed no-repeat ;
-  position: relative;
-  margin: 4rem auto;
+  width: 50%;
+  min-height: 90vh;
+  background: url("img/1.png") center/cover fixed no-repeat;
+  position:static ;
+  margin: 2rem auto;
   box-shadow: 10px 10px 35px rgb(226, 230, 15);
-  
-  
+}
+
+.btn-left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  background: url(/icons8-sort-left-50.png);
+  padding: 25px;
+  cursor: pointer;
+}
+.btn-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  background: url("/icons8-sort-right-50.png");
+  transform: translate(50%, -50%);
+  padding: 25px;
+  cursor: pointer;
 }
